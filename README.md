@@ -21,6 +21,9 @@ Aunque mis conocimientos son principalmente en el ámbito del Machine Learning, 
 
 El código fuente de este proyecto se encuentra disponible en [GitHub](https://github.com/AngelAlaguera/Encriptador-Texto). Puedes acceder al repositorio para ver el código, descargarlo o contribuir con mejoras.
 
+**Prueba el Encriptador:**
+Puedes probar el encriptador de texto en acción en la siguiente página: [Encriptador](https://angelalaguera.github.io/Encriptador-Texto/)
+
 **Uso del encriptador:**
 
 1. Ingresa el texto que deseas encriptar o desencriptar en el cuadro de texto.
