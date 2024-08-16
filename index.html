@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Styles/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/secure.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/secure.png">
+  <title>Encriptador de texto</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo-container">
+      <img class="header__logo" src="./assets/alura.png" alt="Logo Alura">
+  </div>
+  </header>
+  <main class="container">
+    <section class="input-area">
+      <h2 class="input-area__title">Encripta o Desencripta tu texto</h2>
+      <textarea class="input-area__textarea" id="texto" placeholder="Ingresa tu texto aquí" rows="10"></textarea>
+      <p class="input-area__info">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
+          <path fill="currentColor" d="M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07M9 5v6h2V5zm0 8v2h2v-2z" />
+        </svg>
+        Solo letras minúsculas y sin acentos
+      </p>
+      <div class="input-area__buttons">
+        <button class="input-area__button input-area__button--encrypt" onclick="encriptar()">Encriptar</button>
+        <button class="input-area__button input-area__button--decrypt" onclick="desencriptar()">Desencriptar</button>
+      </div>
+    </section>
+    <section class="output-area">
+      <h2 class="output-area__title">Resultado</h2>
+      <div class="output-area__content" id="texto-encriptado">
+        <img class="output-area__image" src="./assets/Muñeco.png" alt="Muñeco con lupa en la mano">
+        <p class="output-area__message">Ningún mensaje fue encontrado</p>
+        <p class="output-area__description">Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright" id="footer-copy"></p>
+    <div class="footer__links">
+      <!-- Agrega tus links aquí -->
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
